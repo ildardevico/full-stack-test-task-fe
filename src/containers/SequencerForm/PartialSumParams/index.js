@@ -8,9 +8,11 @@ const PartialSumParams = ({ fields }) => (
     {fields.map((param, index) => (
       <div className="partial-sum__param" key={index}>
         <Field name={param} type="number" component={Input} />
-        <button type="button" onClick={() => fields.remove(index)}>
-          Remove Param
-        </button>
+        {index > 1 ? (
+          <button type="button" onClick={() => fields.remove(index)}>
+            Remove Param
+          </button>
+        ) : null}
       </div>
     ))}
     <button type="button" onClick={() => fields.push()}>
