@@ -1,0 +1,65 @@
+@import 'mixins';
+
+:root {
+  /*
+  Colors
+  */
+
+  /* accent palette */
+  --g-color-danger: #ff7954;
+  --g-color-success: #57d564; // the same as #56b472 = #33e14;
+  --g-color-warning: #ffeb4e;
+  --g-color-info: #00d6c5;
+
+  /* grey palette */
+  --g-color-white: #fff;
+  --g-color-grey-lightest: #f0f2f5;
+  --g-color-grey-lighter: #d6d8e5; // the same as #d5d7e4 = #dbdde8 = #d7e1e;
+  --g-color-grey-light: #c1c6ce;
+  --g-color-grey: #b6b9bf; // the same as #b8bcc;
+  --g-color-grey-dark: #aab3c2;
+  --g-color-grey-darker: #93a4b3;
+  --g-color-grey-darkest: #626b79;
+
+  /* primary palette */
+  --g-color-primary-darker: #0d2556;
+  --g-color-primary-dark: #2a6fe5;
+  --g-color-primary: #498afa;
+  --g-color-primary-light: #a6b5cf; // the same as #a9b7c;
+  --g-color-primary-lighter: #f6f9ff; // the same as #f4f7f;
+  --g-color-primary-lightest: #fafbfc; // the same as #f1f5f7 = f0f2f;
+
+  /*
+  Fonts
+  */
+  --g-font-family-base: 'Roboto', sans-serif;
+  --g-font-family-secondary: 'Roboto', sans-serif;
+  --g-font-family-third: 'Roboto', sans-serif;
+  --g-font-size-base: 16px;
+  --g-font-weight-bold: 700;
+  --g-font-weight-semibold: 600;
+  --g-font-weight-medium: 500;
+  --g-font-weight-base: 400;
+  --g-line-height-base: 1.5;
+
+  /*
+  Z-index
+  */
+  --g-z-index-hidden: -1;
+  --g-z-index-base: 0;
+  --g-z-index-active: 5;
+  --g-z-index-focus: 10;
+  --g-z-index-fixed: 15;
+  --g-z-index-permanent: 20;
+
+  /*
+  Indents
+  */
+  --g-indent-side: 1.6rem;
+  --g-indent-vertical: 1.6rem;
+
+  /*
+  Animation
+  */
+  --g-animation-duration: 0.3s;
+}

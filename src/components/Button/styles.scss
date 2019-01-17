@@ -1,0 +1,8 @@
+.btn { 
+  cursor: pointer;
+  &:disabled {
+    cursor: not-allowed;
+    background-color: var(--g-color-grey-lighter);
+  }
+}
+

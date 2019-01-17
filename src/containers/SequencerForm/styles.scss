@@ -1,0 +1,11 @@
+.sequencer-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+  & .btn {
+    width: 100%;
+  }
+}
+
